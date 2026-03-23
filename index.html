@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <!-- <h1 class="text-3xl font-bold underline">hellow world</h1>
+    <h1>hello world</h1> -->
+    <div id="container">
+        <div id="main-heading"><H1>Weather Dashboard</H1></div>
+        <div id="mainsection" class="flex">
+            <div id="left-section" class="w-1/3">
+                     <Label for="cityname" class="text-center">Enter City Name</Label>
+                     <input id="location" type="text" name="cityname" placeholder="Eg New york, London, tokyo" required>
+                     <span id="error" style="color: red; font-size: 13px;"></span>
+                     <br>
+
+                     <input id="submit" type="submit" value="submit">  
+                     <input id="detectBtn" type="submit" value="use my location"> 
+                     
+                     <h3>Recent Cities:</h3>
+<ul id="cityList"></ul>
+            </div>
+            <div id="right-section" class="w-2/3">
+                <h3>Weather update here after search</h3>
+                <div id="city-weather"></div>
+                <div id="5days-forcast">
+                    <h2 class="content-center">5-Day Forecast</h2>
+                    <div id="forecastday"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+     <script src="js/script.js"></script>
+</body>
+</html>

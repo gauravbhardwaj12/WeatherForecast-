@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+#main-heading{
+    padding:20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+#mainsection{
+    margin-top: 30px;
+    
+}
+#left-section{
+    margin: 20px;
+}
+#right-section{
+    
+}
+#city-weather{
+background-color: aqua;
+height: 200px;
+display: flex;
+flex-direction: row;
+width: 100%;
+
+}
+#forecastday{
+    display: flex;
+    margin:10px;
+}
+.forecastingdiv{
+    background-color: grey;
+    width: 150px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    height: 200px;
+}
+#location{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#submit{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#detectBtn{
+    background-color: blueviolet;
+    margin-top: 10px;
+    width: 100%;
+}
