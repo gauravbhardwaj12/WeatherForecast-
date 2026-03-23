@@ -1,6 +1,7 @@
 # Weather App 🌤️
 
 A simple weather app built with HTML, CSS, and JavaScript.
+https://github.com/gauravbhardwaj12/WeatherForecast-
 
 ## Features
 - Search weather by city
